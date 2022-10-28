@@ -94,7 +94,7 @@ costDis[i][j] = min(costDis[i][k]+costDis[k][j],costDis[i][j])
 
 ```
    Input:  
-   	matz
+    matz
     5
     m z 1000
     m p 50
@@ -110,7 +110,7 @@ costDis[i][j] = min(costDis[i][k]+costDis[k][j],costDis[i][j])
 
 ```
    Input:  
-   	a
+    a
     2
     a t 0
     t m 2
@@ -123,7 +123,7 @@ costDis[i][j] = min(costDis[i][k]+costDis[k][j],costDis[i][j])
 
 ```
    Input:  
-   	aaaaat
+    aaaaat
     3
     a t 5
     a p 1
@@ -137,7 +137,7 @@ costDis[i][j] = min(costDis[i][k]+costDis[k][j],costDis[i][j])
 
 ```
    Input:  
-   	palihdromeamqrdnitap
+    palihdromeamqrdnitap
     8
     l q 630
     q o 10000
@@ -156,7 +156,7 @@ costDis[i][j] = min(costDis[i][k]+costDis[k][j],costDis[i][j])
 
 ```
    Input:  
-   	popoy
+    popoy
     6
     p a 910
     a m 67
