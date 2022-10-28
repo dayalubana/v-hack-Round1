@@ -1,6 +1,6 @@
 # v-hack-Round1
 
-## Solution Explantion (Logic)
+## Solution Explanation (Logic)
 <br>
 
 > Main logic behind the solution to convert string into palindrome with minimum cost is that we are calculating the minimum cost for converting one character to respective another character to make a palindromic string.
@@ -18,7 +18,7 @@
 
 ![image](./mincost.png)
 
-## Function Explantion - 
+## Function Explanation - 
 <br>
 
 ### main() Function
@@ -130,7 +130,7 @@ costDis[i][j] = min(costDis[i][k]+costDis[k][j],costDis[i][j])
     p t 2
 
    Output:  
-   	3
+    3
 ```
 
 ### Sample Test Case 7:
@@ -149,7 +149,7 @@ costDis[i][j] = min(costDis[i][k]+costDis[k][j],costDis[i][j])
     o l 400
 
    Output:  
-   	3062
+    3062
 ```
 
 ### Sample Test Case 8:
@@ -166,5 +166,5 @@ costDis[i][j] = min(costDis[i][k]+costDis[k][j],costDis[i][j])
     u y 500
 
    Output:  
-   	652
+    652
 ```
